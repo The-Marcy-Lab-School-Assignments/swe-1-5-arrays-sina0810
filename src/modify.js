@@ -7,8 +7,7 @@ const uppercaseAll = (word1, word2, word3) => {
 };
 
 const destructureCoordinates = (coordinates) => {
-  const x = coordinates[0];
-  const y = coordinates[1];
+  const [x,y]= coordinates;
   return `X is: ${x}, Y is: ${y}`; // no touching this line!
 };
 
